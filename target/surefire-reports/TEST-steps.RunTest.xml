@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="steps.RunTest" time="40.165" tests="3" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\MAXPC\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Programs\IdeaProjects\testCucumber\target\test-classes;D:\Programs\IdeaProjects\testCucumber\target\classes;C:\Users\MAXPC\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\MAXPC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\MAXPC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\MAXPC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\MAXPC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MAXPC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\MAXPC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MAXPC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MAXPC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MAXPC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MAXPC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MAXPC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\MAXPC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\MAXPC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\MAXPC\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\MAXPC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\MAXPC\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\MAXPC\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\MAXPC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\MAXPC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\MAXPC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\MAXPC\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\MAXPC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\MAXPC\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\MAXPC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\MAXPC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\MAXPC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MAXPC\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="D:\Programs\JDK\bin"/>
+    <property name="sun.java.command" value="C:\Users\MAXPC\AppData\Local\Temp\surefire8450248821376621481\surefirebooter4532963672252031485.jar C:\Users\MAXPC\AppData\Local\Temp\surefire8450248821376621481 2021-09-15T16-24-17_667-jvmRun1 surefire17918718651011828519tmp surefire_06505891619856275564tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Programs\IdeaProjects\testCucumber\target\test-classes;D:\Programs\IdeaProjects\testCucumber\target\classes;C:\Users\MAXPC\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\MAXPC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\MAXPC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MAXPC\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\MAXPC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\MAXPC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\MAXPC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MAXPC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\MAXPC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MAXPC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MAXPC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MAXPC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MAXPC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MAXPC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\MAXPC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\MAXPC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\MAXPC\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\MAXPC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\MAXPC\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\MAXPC\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\MAXPC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\MAXPC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\MAXPC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\MAXPC\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\MAXPC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\MAXPC\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\MAXPC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\MAXPC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\MAXPC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MAXPC\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MAXPC"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="D:\Programs\JDK"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Programs\IdeaProjects\testCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MAXPC\AppData\Local\Temp\surefire8450248821376621481\surefirebooter4532963672252031485.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="MAXPC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MAXPC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAXPC\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="D:\Programs\IdeaProjects\testCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Programs\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;D:\Programs\apache-maven-3.8.2\bin;C:\Users\MAXPC\AppData\Local\Microsoft\WindowsApps;C:\Users\MAXPC\AppData\Local\atom\bin;C:\Users\MAXPC\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="I want to fill form with correct data" classname="I want to test form" time="10.646">
+    <system-out><![CDATA[
+Scenario: I want to fill form with correct data             &amp#27;[90m# src/test/resources/test_form.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to main page&amp#27;[0m                                   &amp#27;[90m# steps.StepsDefinition.iGoToMainPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI choose link &amp#27;[0m&amp#27;[32m&amp#27;[1m"РљСЂРµРґРёС‚ РЅР°Р»РёС‡РЅС‹РјРё РѕС‚"&amp#27;[0m                  &amp#27;[90m# steps.StepsDefinition.iChooseLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill name field with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"РўРµСЃС‚РѕРІ РљР»РёРµРЅС‚ РђРЅРєРµС‚РѕРІРёС‡"&amp#27;[0m &amp#27;[90m# steps.StepsDefinition.iFillNameFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill phone field with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"9816994934"&amp#27;[0m             &amp#27;[90m# steps.StepsDefinition.iFillPhoneFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill email field with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@test.ru"&amp#27;[0m           &amp#27;[90m# steps.StepsDefinition.iFillEmailFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI choose sex &amp#27;[0m&amp#27;[32m&amp#27;[1m"РњСѓР¶СЃРєРѕР№"&amp#27;[0m                                &amp#27;[90m# steps.StepsDefinition.iChooseSex(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI check the box&amp#27;[0m                                       &amp#27;[90m# steps.StepsDefinition.iCheckTheBox()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click button &amp#27;[0m&amp#27;[32m&amp#27;[1m"РџСЂРѕРґРѕР»Р¶РёС‚СЊ"&amp#27;[0m                           &amp#27;[90m# steps.StepsDefinition.iClickButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI &amp#27;[0m&amp#27;[32m&amp#27;[1msee&amp#27;[0m&amp#27;[32m page step2&amp#27;[0m                                     &amp#27;[90m# steps.StepsDefinition.iSeePageStep2(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 30543
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+сент. 15, 2021 4:24:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="I want to fill form with incorrect data #1" classname="I want to test form" time="12.097">
+    <system-out><![CDATA[
+Scenario Outline: I want to fill form with incorrect data   &amp#27;[90m# src/test/resources/test_form.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to main page&amp#27;[0m                                   &amp#27;[90m# steps.StepsDefinition.iGoToMainPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI choose link &amp#27;[0m&amp#27;[32m&amp#27;[1m"РљСЂРµРґРёС‚ РЅР°Р»РёС‡РЅС‹РјРё РѕС‚"&amp#27;[0m                  &amp#27;[90m# steps.StepsDefinition.iChooseLink(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill name field with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"РўРµСЃС‚РѕРІ РљР»РёРµРЅС‚ РђРЅРєРµС‚РѕРІРёС‡"&amp#27;[0m &amp#27;[90m# steps.StepsDefinition.iFillNameFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill phone field with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"1816994934"&amp#27;[0m             &amp#27;[90m# steps.StepsDefinition.iFillPhoneFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill email field with text &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@test.ru"&amp#27;[0m           &amp#27;[90m# steps.StepsDefinition.iFillEmailFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI choose sex &amp#27;[0m&amp#27;[32m&amp#27;[1m"РњСѓР¶СЃРєРѕР№"&amp#27;[0m                                &amp#27;[90m# steps.StepsDefinition.iChooseSex(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI check the box&amp#27;[0m                                       &amp#27;[90m# steps.StepsDefinition.iCheckTheBox()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click button &amp#27;[0m&amp#27;[32m&amp#27;[1m"РџСЂРѕРґРѕР»Р¶РёС‚СЊ"&amp#27;[0m                           &amp#27;[90m# steps.StepsDefinition.iClickButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI &amp#27;[0m&amp#27;[32m&amp#27;[1mnot see&amp#27;[0m&amp#27;[32m page step2&amp#27;[0m                                 &amp#27;[90m# steps.StepsDefinition.iSeePageStep2(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 16700
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+сент. 15, 2021 4:24:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="I want to fill form with incorrect data #2" classname="I want to test form" time="17.38">
+    <error type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //a[contains(text(), 'Кредит наличными от')] (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CURTISPC', ip: '192.168.1.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\MAXPC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31b6bef5c3d5e0bb190876af926e6aca
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Кредит наличными от')]}
+]]></error>
+    <system-out><![CDATA[
+Scenario Outline: I want to fill form with incorrect data   &amp#27;[90m# src/test/resources/test_form.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to main page&amp#27;[0m                                   &amp#27;[90m# steps.StepsDefinition.iGoToMainPage()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI choose link &amp#27;[0m&amp#27;[31m&amp#27;[1m"РљСЂРµРґРёС‚ РЅР°Р»РёС‡РЅС‹РјРё РѕС‚"&amp#27;[0m                  &amp#27;[90m# steps.StepsDefinition.iChooseLink(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //a[contains(text(), 'РљСЂРµРґРёС‚ РЅР°Р»РёС‡РЅС‹РјРё РѕС‚')] (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at page.BasePage.waitVisibility(BasePage.java:22)
+	at page.BasePage.click(BasePage.java:27)
+	at page.GetMoney.choosePage(GetMoney.java:20)
+	at steps.StepsDefinition.iChooseLink(StepsDefinition.java:32)
+	at вњЅ.I choose link "РљСЂРµРґРёС‚ РЅР°Р»РёС‡РЅС‹РјРё РѕС‚"(file:///D:/Programs/IdeaProjects/testCucumber/src/test/resources/test_form.feature:16)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CURTISPC', ip: '192.168.1.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\MAXPC\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31b6bef5c3d5e0bb190876af926e6aca
+*** Element info: {Using=xpath, value=//a[contains(text(), 'РљСЂРµРґРёС‚ РЅР°Р»РёС‡РЅС‹РјРё РѕС‚')]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:231)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:228)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at page.BasePage.waitVisibility(BasePage.java:22)
+	at page.BasePage.click(BasePage.java:27)
+	at page.GetMoney.choosePage(GetMoney.java:20)
+	at steps.StepsDefinition.iChooseLink(StepsDefinition.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI fill name field with text &amp#27;[0m&amp#27;[36m&amp#27;[1m"РўРµСЃС‚РѕРІ РљР»РёРµРЅС‚ РђРЅРєРµС‚РѕРІРёС‡"&amp#27;[0m &amp#27;[90m# steps.StepsDefinition.iFillNameFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI fill phone field with text &amp#27;[0m&amp#27;[36m&amp#27;[1m"9816994934"&amp#27;[0m             &amp#27;[90m# steps.StepsDefinition.iFillPhoneFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI fill email field with text &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m                       &amp#27;[90m# steps.StepsDefinition.iFillEmailFieldWithText(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI choose sex &amp#27;[0m&amp#27;[36m&amp#27;[1m"РњСѓР¶СЃРєРѕР№"&amp#27;[0m                                &amp#27;[90m# steps.StepsDefinition.iChooseSex(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI check the box&amp#27;[0m                                       &amp#27;[90m# steps.StepsDefinition.iCheckTheBox()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click button &amp#27;[0m&amp#27;[36m&amp#27;[1m"РџСЂРѕРґРѕР»Р¶РёС‚СЊ"&amp#27;[0m                           &amp#27;[90m# steps.StepsDefinition.iClickButton(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI &amp#27;[0m&amp#27;[36m&amp#27;[1mnot see&amp#27;[0m&amp#27;[36m page step2&amp#27;[0m                                 &amp#27;[90m# steps.StepsDefinition.iSeePageStep2(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 2808
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+сент. 15, 2021 4:24:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
